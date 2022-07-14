@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include lee_swap *.css
+recursive-include lee_swap *.csv
+recursive-include lee_swap *.html
+recursive-include lee_swap *.ico
+recursive-include lee_swap *.js
+recursive-include lee_swap *.json
+recursive-include lee_swap *.md
+recursive-include lee_swap *.png
+recursive-include lee_swap *.py
+recursive-include lee_swap *.svg
+recursive-include lee_swap *.txt
+recursive-exclude lee_swap *.pyc
