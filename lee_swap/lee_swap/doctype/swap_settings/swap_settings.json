@@ -1,0 +1,56 @@
+{
+ "creation": "2022-07-15 00:16:30.527110",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "text_instance",
+  "text_result"
+ ],
+ "fields": [
+  {
+   "fieldname": "text_instance",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Text Instance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "text_result",
+   "fieldtype": "Data",
+   "label": "Text Result"
+  }
+ ],
+ "issingle": 1,
+ "modified": "2022-07-15 00:35:46.166252",
+ "modified_by": "Administrator",
+ "module": "Lee Swap",
+ "name": "Swap Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
